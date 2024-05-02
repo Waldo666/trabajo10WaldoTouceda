@@ -1,0 +1,179 @@
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+background-color: #333;
+}
+
+/*HEADER*/
+
+.tamLogo {
+    width: 150px;
+}
+
+.fuentesNav {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.encabezado {
+    /* background-color: bisque; */
+    border-top: solid 20px #6e10c1;
+    /* border-bottom: solid 1px #c1101a; */
+    margin-bottom: 30px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    border-left: 1px solid #6e10c1;
+    border-right: 1px solid #6e10c1;
+    padding: 0 15px;
+}
+
+a:hover {
+    transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Add transition for smooth hover effect */
+  background-color: #6e10c1; /* Maintain original background color */
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+}
+/* PRODUCTOS */
+
+.tituloProductos {
+   
+    background-color: #6e10c1;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 50px; /* This line adds rounded corners */
+  }
+
+
+.tituloProductos h2 {
+    font-size: 45px;
+}
+
+
+/*CARDS*/
+
+
+.colorBtn {
+    background-color: #6e10c1;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.colorBtn:hover {
+    background-color: #6e10c1;
+    color: #ffffff;
+}
+.chatera{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatera1{
+    color: rgb(168, 128, 233);
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Cards*/
+
+.card-img-top {
+    height: 200px;
+    /* Ajusta la altura deseada */
+    object-fit: cover;
+    object-position: center top;
+}
+
+/* Estilos del formulario de inicio de sesión */
+h1,.mt-2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.formulario {
+       max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7c7c7c;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.inputMessi {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btnMios {
+    width: 100%;
+    padding: 10px;
+    background-color: #6e10c1;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnMios:hover {
+    background-color: #6e10c1;
+}
+
+i {
+    font-size: 35px;
+}
+.container-flex {
+    display: flex;
+  }
+  
+  .text-content {
+    color: aliceblue;
+    flex: 1; 
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-content h2,
+  .text-content h3 {
+    margin: 0; 
+  }
+  
+  .map-container {
+    width: 600px; 
+    padding: 20px;
+  }
+  
+  .map-container iframe {
+    border-radius: 60px; 
+  }
